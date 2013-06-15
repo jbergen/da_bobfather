@@ -40,7 +40,6 @@ gem 'jquery-rails'
 # gem 'debugger'
 group :development do
   gem 'database_cleaner'
-  gem 'mysql2','0.3.11'
 end
 
 gem 'omniauth-facebook'

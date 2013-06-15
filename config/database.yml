@@ -13,8 +13,7 @@ development:
   encoding: unicode
   database: da_bobfather_development
   pool: 5
-  username: graham
-  password:
+  host: localhost
   # adapter: mysql2
   # encoding: utf8
   # reconnect: false
@@ -27,18 +26,15 @@ development:
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test: &test
-  adapter: mysql2
+  adapter: postgresql
   encoding: utf8
   reconnect: false
   database: da_bobfather_test
   pool: 5
-  username: root
-  password:
-  api_key: sdsddff
 
 
 production:
-  adapter: mysql2
+  adapter: postgresql
   encoding: utf8
   reconnect: false
   database: da_bobfather_production
